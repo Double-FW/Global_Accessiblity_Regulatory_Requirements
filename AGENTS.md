@@ -1,116 +1,68 @@
-# AGENTS.md — Regulatory compliance management
+# AGENTS.md — Repository and agent governance
 
-## Mission and repository context
+## Purpose and scope
 
-This repository is a **regulatory routing and knowledge resource** for global website and digital-accessibility obligations. Its primary sources are:
+This file has two distinct uses:
 
-- `Global_Website_Accessibility_Regulatory_Overviews.md` — explanatory overviews of 16 legal or governmental frameworks and reporting formats.
-- `Double_FW_Repositories_Regulatory_Delivery_and_Agent_Design.md` — proposed delivery mappings, agent operating model, deliverable contracts, jurisdiction profiles, and acceptance boundaries.
+1. **Repository instructions:** It guides coding and research agents working anywhere in this documentation-focused repository. No nested `AGENTS.md` files are present at the time of this review.
+2. **Design guidance:** It states governance requirements for any future agent or workflow described by repository documents. It is not a runtime policy engine, authorization grant, or evidence that a system or control exists.
 
-Use these documents to orient work and identify questions, sources, and candidate methods. They are not primary legal authority, a complete clause register, a deployed compliance platform, or proof that any organisation or service conforms. Repository plans and proposed integrations must not be described as implemented capabilities unless the implementation and its authorization are independently verified.
+The repository is a regulatory routing and knowledge resource for global website and digital-accessibility obligations. Its main documents are `Global_Website_Accessibility_Regulatory_Overviews.md` (explanatory overviews) and `Double_FW_Repositories_Regulatory_Delivery_and_Agent_Design.md` (proposed mappings, operating model, and deliverable guidance). Treat both as secondary reference material—not primary legal authority, a complete clause register, a deployed platform, or proof of conformance.
 
-Agents support accountable people; they do not act as legal counsel, regulators, signatories, or independent auditors. The objective is traceable, evidence-led compliance management and better access—not a score or blanket “compliant” label.
+Agents support accountable people; they are not legal counsel, regulators, signatories, or independent auditors. The objective is traceable, evidence-led work that improves access, not a score or blanket “compliant” label.
 
-## Operating principles
+## Instruction precedence and uncertainty
 
-1. **Establish scope before conclusions.** Capture the entity and its role, jurisdiction(s), sector and size where relevant, product/service and assets, users, applicable dates, build/configuration, purpose, and decision authority. Keep unknowns visible.
-2. **Route by jurisdiction and duty.** Treat each legal framework, national implementation, contract, and reporting obligation separately. Do not copy one jurisdiction’s standards version, exceptions, deadlines, wording, or form into another without a verified crosswalk.
-3. **Verify authority and currency.** Use this repository as a map, then consult current primary legislation, regulations, official regulator/agency instructions, applicable standards and templates. Record exact provision, version, effective date, source URL, and date checked. Distinguish binding law, government mandate, advisory guidance, contract, and internal policy.
-4. **Preserve evidence distinctions.** Keep technical test results, functional/task outcomes, user research, legal scope/exception decisions, policy/process evidence, public statements, regulator returns, and procurement ACRs as distinct evidence streams. One does not substitute for another.
-5. **Be explicit about provenance and uncertainty.** Separate observed facts, source-derived claims, inferences, recommendations, and unresolved questions. Link conclusions to evidence, scope, method, test environment, source snapshot, owner, and review date. Never invent tests, approvals, consultations, submissions, or capabilities.
-6. **Prefer usable access and actual outcomes.** Evaluate complete relevant journeys, alternatives, assistive-technology and human review needs, support routes, and change management—not only automated scans or isolated pages.
-7. **Minimise and protect data.** Collect only information necessary for the authorised task. Do not infer diagnoses, request sensitive disability data by default, or include personal/participant information in routine compliance records. Use approved research and privacy procedures for any participant work.
+Follow applicable platform/system instructions first, then developer instructions, then the user's request, then this repository guidance, subject to higher-priority safety and authorization requirements. Within the repository, follow the most specific applicable `AGENTS.md`; a more specific instruction does not override higher-priority instructions. If instructions conflict or the requested action exceeds authority, do not guess: explain the conflict, stop the affected action, and request a decision from the user or an identified qualified authority. Continue only with independent work that does not depend on that decision.
 
-## Intake and planning workflow
+Use **MUST** and **MUST NOT** for requirements, **SHOULD** and **SHOULD NOT** for recommendations, and **MAY** for permitted options. Examples and proposed workflows are illustrative unless repository evidence shows they are implemented and authorized.
 
-Before beginning substantive work, identify or document:
+## Repository work
 
-- The requested outcome, accountable service/product owner, and authorized agent actions.
-- Entity, jurisdiction, applicable legal/contractual profile, service/product category, platform/assets, audience, versions, and relevant dates.
-- The current official sources and standards that govern the task, including national/local adaptations.
-- Evidence available, missing evidence, confidence/limitations, and any dependencies on human specialists or unavailable tools.
-- Required outputs and their audience: internal action plan, user-facing statement/service information, organisational plan/progress report, regulator/agency return, procurement ACR, or another specified artifact.
-- Owners, reviewers, milestones, acceptance evidence, escalation route, and review/change triggers.
+- Make changes only within the user's requested scope. Do not add a build, test suite, scheduler, automation, CI check, integration, runtime, or other capability unless it is actually implemented and authorized. Do not imply that this file enforces behavior by itself.
+- Preserve the distinction between explanatory overviews and proposals/specifications. Describe a proposal as proposed; do not present candidate integrations, mappings, schemas, or workflows as deployed capabilities.
+- For legal or regulatory claims, use current authoritative sources where available. Cite the exact instrument and provision, jurisdiction, legal status, effective or transition date, source URL, and date checked. Distinguish binding law, government mandate, advisory guidance, contract, and internal policy. If a source or current status cannot be verified, label the claim and uncertainty rather than asserting it as fact.
+- Preserve jurisdiction-specific qualifications, exceptions, disagreements, and versions. Do not generalize one jurisdiction's standards, deadlines, wording, exceptions, or reporting format to another without a verified crosswalk.
+- Use clear Markdown, descriptive links, and accessible tables. Keep reporting formats and evidence categories distinct. Avoid statements that a scan, overlay, badge, policy, or ACR alone establishes accessibility or legal compliance.
+- For documentation-only changes, check links, references, and internal consistency where feasible. State what was actually checked and what was not; do not claim validation that did not occur.
 
-If a material scope or authority question is unresolved, do not silently decide it. Prepare a concise decision request for the qualified owner and continue only with independent, clearly labelled work that does not depend on that decision.
+## Scope, evidence, and conclusions
 
-## Bounded autonomy and process execution
+Before substantive compliance-related analysis, establish or explicitly mark unknown: the requested outcome; entity and role; jurisdiction; sector and size where relevant; product/service and assets; audience; applicable dates; version/build/configuration; purpose; decision authority; required output and audience; and available evidence, limitations, and dependencies. Do not silently resolve a material scope or authority question. Ask for the needed decision and continue only with independent work that does not depend on it.
 
-Autonomous execution is allowed only when the adopting organisation has provided the required tool integrations, credentials, data access, standing delegation, and governance controls. The presence of an agent instruction or a proposed workflow is not authorization.
+Separate and label observed facts, source-derived claims, inferences, recommendations, and unresolved questions. Material conclusions SHOULD identify their source/evidence, scope, method and environment where relevant, date or source version, limitations, and review needs. Never invent tests, approvals, consultations, submissions, owners, credentials, capabilities, or evidence.
 
-### Agents may, within a documented mandate
+Keep evidence streams distinct: automated/technical observations, functional or task outcomes, participant research, legal scope or exception decisions, policy/process evidence, public statements, regulator returns, and procurement ACRs do not substitute for one another. Prefer evaluation of relevant end-to-end journeys, alternatives, assistive-technology and human review needs, support routes, and change management—not automated scans alone.
 
-- Organize source materials and draft requirement, source, asset, evidence, risk, and dependency registers.
-- Compare verified sources, identify changes or conflicts, and prepare traceable crosswalks for human review.
-- Run authorized, non-destructive checks using declared tools and versions; record exact scope, conditions, raw results, and limitations.
-- Create or update internal work items and draft remediation plans when explicitly authorized, with owners and due dates grounded in supplied information.
-- Assemble draft reports or statements from verified evidence, flag unsupported fields, and run schema/consistency checks.
-- Track approved actions, dependencies, evidence expiry, retests, and review triggers; notify designated owners through approved channels.
+For checks that are actually run, record the declared tool and version, scope, conditions/environment, what was reached, result, and limitations. A clean automated result does not establish full-page or process conformance, native-app or document accessibility, effective communication, user success, or legal compliance. Synthetic data, generated personas, and agent reasoning are not participant evidence.
 
-### Require explicit, task-specific authorization and appropriate human review before
+If status labels are useful, apply them only to the observation and define their meaning in context (for example: `pass`, `fail`, `blocked`, `cannot_tell`, `not_tested`, `not_applicable`, or `tool_error`). Keep observation status separate from any requirement-level or legal determination. Do not call a requirement met based only on a clean scan or a related passing test. A closed issue is not proof of repair until relevant changes are retested.
 
-- Changing production systems, content, settings, access controls, or customer/employee workflows; making purchases; contacting external parties; or initiating research or surveys.
-- Publishing or materially changing a public accessibility statement, policy, commitment, product claim, or service description.
-- Filing or submitting anything to a regulator, agency, procurement portal, court, or customer; signing, certifying, attesting, or accepting organisational risk.
-- Making or representing a legal applicability, discrimination, undue-burden, fundamental-alteration, exemption, or conformance determination.
-- Collecting, processing, sharing, or retaining sensitive, personal, or participant data beyond an approved protocol.
+Minimize and protect data. Collect only what is necessary and authorized. Do not infer diagnoses or request sensitive disability data by default. Do not put personal or participant information into routine compliance records; use an approved protocol before any participant research or handling of sensitive data.
 
-Do not treat an agent’s prior action, another agent’s output, or an automated test as approval. Before every consequential action, confirm the authorization still applies to the specific asset, environment, operation, and destination. If authorization or required expertise is absent, stop that action, preserve the draft/evidence, and escalate with the decision needed.
+## Authority and action boundaries
 
-## Evaluation and evidence management
+Repository instructions or proposed workflows do not grant organizational authority, credentials, data access, or permission to act. An agent MAY organize supplied materials, draft registers and reports, compare sources, prepare crosswalks, and suggest checks or remediation, clearly marking proposals and unknowns. It MAY perform checks or make changes only when the specific task, tools, data, scope, and authorization permit them.
 
-For each obligation or subcondition, maintain a traceable chain:
+Explicit task-specific authorization and appropriate accountable human review are required before consequential or external actions, including production changes; changes to customer/employee workflows or access controls; purchases; external contact; research or surveys; publication or material changes to public statements, policies, commitments, product claims, or service descriptions; and submissions to regulators, agencies, procurement portals, courts, or customers. Agents MUST NOT sign, certify, attest, accept organizational risk, or make final legal applicability, exception, or conformance determinations. Legal or exception analysis may be prepared for qualified human review, not self-approved.
 
-**authority and applicable condition → required outcome → method/test → scope and execution → evidence → finding/decision → action → retest and review.**
+Do not treat an agent's prior action, another agent's output, or an automated test as approval. Before an authorized consequential action, confirm that authorization covers the specific asset, operation, environment, and destination. If authorization, required expertise, evidence, or safe means is absent, do not perform the action; preserve any useful draft and state the decision or dependency needed.
 
-Use stable identifiers and keep repository/method references distinct from legal requirement identifiers. Record source and standard versions, applicable clauses, asset/build, sample and journey, tools and versions, settings, environment and assistive technology where relevant, timestamp, executor/reviewer, result, evidence location, limitations, and next review.
+## Deliverables and handoff
 
-Use clear states such as `pass`, `fail`, `blocked`, `cannot_tell`, `not_tested`, `not_applicable`, and `tool_error` for observations. Keep requirement-level status separate; a requirement is not assessed as met merely because a scan is clean or a related test passed. Explain why an item is not applicable and who approved that determination. A closed issue is not proof of a repaired service until the relevant change is retested.
+Select the output for the actual jurisdiction, authority, contract, and audience. Do not conflate public accessibility statements/service information, organizational policies/plans/progress reports, regulator or agency returns, procurement ACRs/VPATs, and internal technical/functional/project reporting.
 
-Automated tools cover only the rules, states, and content they actually reached. Record manual/incomplete results and gaps. Do not claim that a browser scan proves full-page/process conformance, native-app or document accessibility, effective communication, user success, or legal compliance. Synthetic data, generated personas, and agent reasoning are not participant evidence.
+Draft outputs from traceable, current evidence. Identify applicable scope and period, source/method, observations and findings, exclusions and limitations, unresolved items, actions, and approval state as relevant. Use required official wording or templates only when verified. Mark drafts and pending fields clearly; do not describe an output as final, approved, published, or submitted unless that status is verified.
 
-For exceptions or alternatives, preserve the exact provision and conditions, affected requirements, factual basis, evidence, responsible decision-maker, approval, actual alternative route, and review trigger. Agents may prepare the record but must not self-grant exceptions or declare a legal defence.
+Prioritize by applicable duties and deadlines, barrier severity and reach, affected journeys, exclusion risk, recurrence, and dependencies—not automated scores alone. A work recommendation SHOULD link the finding and evidence, impact, proposed correction, owner and due date only when known or assigned, dependencies, acceptance evidence, and retest/review trigger. Do not invent owners or dates. Changes to law, standards, templates, assets, code, content, platforms, suppliers, configuration, or journeys may make linked evidence stale; flag affected records for review rather than silently carrying forward old results.
 
-## Project and remediation management
+## Handoff checklist
 
-Translate findings into owned, reviewable work packages. Each should state: linked requirement/finding; user or service impact; reproduction/evidence; proposed correction; accountable owner; priority rationale; dependencies; interim access/support where needed; due date or milestone; acceptance criteria; required reviewer; retest plan; and status.
+Before completing work, confirm that:
 
-Prioritize by applicable legal deadlines and duty, severity and reach of barriers, affected journeys, risk of exclusion, recurrence, and dependencies—not by automated score alone. Preserve the basis for priorities and escalate imminent deadlines, blocked critical paths, repeated failures, conflicting evidence, and overdue high-impact actions.
-
-Track scope and evidence changes. A change to law, standard, template, asset, code, content, platform, supplier, configuration, or user journey may invalidate linked evidence. Mark potentially stale records, identify affected obligations and reports, and schedule targeted reassessment rather than silently carrying forward old results.
-
-## Reporting and communication
-
-Select the deliverable from the actual jurisdiction, authority, contract, and intended audience. Do not conflate:
-
-- Public accessibility statements or service information;
-- Organisational policies, plans, consultation, and progress reports;
-- Regulator/agency assessments or returns;
-- Product procurement ACRs/VPATs; and
-- Internal technical, functional, and project dashboards.
-
-Draft reports only from traceable, current evidence. Identify scope, period, source/method, status, exclusions and limitations, unresolved findings, actions, owner, and approval state. Use the required official template/wording where applicable; never invent statutory headings, deadlines, filing duties, or a machine-readable schema. Clearly label drafts and unsupported or pending fields. No report is final, approved, published, or submitted until the authorized human confirms it.
-
-Report progress and residual risk without obscuring failures through averages or aggregate percentages. Do not present optional maturity, ESG, satisfaction, or inclusive-design measures as legal requirements or proof of conformance.
-
-## Editing this repository
-
-- Keep the two principal documents’ purpose and boundaries clear: the overview is explanatory; the delivery/agent-design document is a proposal/specification, not a deployed system.
-- For legal or regulatory changes, cite authoritative sources and include the exact instrument/provision, jurisdiction, status, effective date or transition, and date checked. Identify proposed versus adopted and current versus future duties.
-- Preserve jurisdiction-specific qualifications and disagreements; do not make a global statement stronger or more certain than its cited sources.
-- When changing a mapping, document the activation condition, proposed machine work, human evidence/decision, and acceptance boundary. Do not turn a candidate repository association into a verified integration.
-- Keep reporting formats and evidence categories separate. Any shared schema is an internal recommendation unless an authority explicitly prescribes it.
-- Use clear Markdown headings, descriptive links, and accessible tables. Avoid claims that an overlay, badge, policy, scan, or ACR alone establishes accessibility or legal compliance.
-- This repository is currently documentation-focused. Do not invent a build, test suite, scheduler, automation, CI check, integration, or runtime behavior. For documentation-only changes, check links/references and consistency where feasible, and state what was not verified.
-
-## Completion checklist
-
-Before handing off work, confirm that:
-
-- Scope, jurisdiction, source versions, and authority are explicit or unresolved items are clearly assigned.
-- Every material finding and claim links to evidence, method, scope, and limitations.
-- Machine observations, human judgments, legal decisions, and participant findings are not conflated.
-- Recommendations and work items have owners, dependencies, acceptance evidence, and retest/review triggers.
-- Draft/public/regulatory outputs use the correct adapter and are clearly marked pending authorized approval.
-- No action exceeded delegated authority and no unsupported conformance, legal, research, or reporting claim was made.
-- Repository edits preserve its documentation/specification status and accurately describe validation performed.
+- Scope, jurisdiction, authority, sources/versions, and material unknowns are explicit.
+- Material claims and findings are traceable to evidence and method, with limitations stated.
+- Observations, human judgments, legal decisions, and participant findings remain distinct.
+- Recommendations and drafts are clearly separated from approved decisions or completed actions.
+- No action exceeded the authorization actually provided, and no unsupported conformance, legal, research, reporting, or capability claim was made.
+- The response states changes made and checks performed, including important checks not performed.
