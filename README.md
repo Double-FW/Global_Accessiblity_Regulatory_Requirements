@@ -114,3 +114,8 @@ Contributions should remain consistent with the repository’s purpose:
 ## Disclaimer
 
 This repository is a planning and knowledge resource for regulatory delivery. It is not a legal opinion, regulator-issued template, or a certification mechanism. Any organisation using it should verify the current legal and contractual obligations that apply to its jurisdiction, service, and context.
+
+
+## Hugging Face dataset publication
+
+The secondary source guidance is also published as traceable documents and sections in [the Hugging Face dataset](https://huggingface.co/datasets/GarethFW/Global_Accessiblity_Regulatory_Requirements). See [the complete setup and verification guide](huggingface/SETUP.md) for token creation, GitHub secret configuration, the first run and weekly updates. The combined RAG snapshot is excluded to avoid duplication. Publication does not revalidate legal currency, applicability or compliance.
