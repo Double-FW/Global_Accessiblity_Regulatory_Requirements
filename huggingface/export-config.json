@@ -1,0 +1,29 @@
+{
+  "source_repository": "Double-FW/Global_Accessiblity_Regulatory_Requirements",
+  "destination_dataset": "GarethFW/Global_Accessiblity_Regulatory_Requirements",
+  "dataset_version": "1.0.0",
+  "export_format_version": "1.0.0",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "Global_Website_Accessibility_Regulatory_Overviews.md",
+    "Double_FW_Repositories_Regulatory_Delivery_and_Agent_Design.md"
+  ],
+  "required_files": [
+    "AGENTS.md",
+    "README.md",
+    "Global_Website_Accessibility_Regulatory_Overviews.md",
+    "Double_FW_Repositories_Regulatory_Delivery_and_Agent_Design.md",
+    "LICENSE"
+  ],
+  "document_only_files": [
+    "AGENTS.md",
+    "README.md"
+  ],
+  "context_files": [
+    "AGENTS.md",
+    "Global_Website_Accessibility_Regulatory_Overviews.md",
+    "Double_FW_Repositories_Regulatory_Delivery_and_Agent_Design.md"
+  ],
+  "approved_license_sha256": "7ef02bc0b6ba376de57be5f27784eef23df6a74068a4a2a172f95ba2c605b7af"
+}
