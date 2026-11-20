@@ -27,9 +27,9 @@ A repository’s relevance is **proposed delivery support**, not a legal declara
 
 ## Evidence and inventory boundary
 
-The starting overview is [Global_Website_Accessibility_Regulatory_Overviews.md](https://chatgpt.com/library?file_id=libfile_5f669c854bfc819199031596a7aa50d4&account_id=personal). Its current public repository copy is also reviewed under R18.
+The starting overview is [Global_Website_Accessibility_Regulatory_Overviews.md](Global_Website_Accessibility_Regulatory_Overviews.md). Its current public repository copy is also reviewed under R18.
 
-Live GitHub searches for user:Double-FW is:public returned **30 repositories**. A second page returned none; a fork-inclusive search returned the same set, and date-partition checks were consistent with that inventory. All 30 are represented below. Private/unreturned repositories are not assumed to be available. Refresh the inventory before implementation because visibility and contents can change.
+At the original review on 4 November 2026, GitHub searches for user:Double-FW is:public returned **30 repositories**. A second page returned none; a fork-inclusive search returned the same set, and date-partition checks were consistent with that inventory. The original 30 stable mapping slots are retained below. R26 now provides a public delivery route rather than depending on an unavailable repository; the slots are not a current count of distinct public repositories. Private/unreturned repositories are not assumed to be available. Refresh the inventory before implementation because visibility and contents can change.
 
 Review depth: repository file listings, README and one substantive entry point per repository, with targeted content review and additional authority/test-contract/schema excerpts for central workflows. This is a relevance and integration review, not an exhaustive audit of every file. Binary casting research datasets were inventoried but not examined or reused as compliance evidence. Commit references below pin the reviewed snapshot. No product tests were executed.
 
@@ -485,19 +485,21 @@ The IDs below are stable within this specification. Every relationship is explic
 
 ### R26
 
-**[Shift-Left_Accessibility_AI_Management](https://github.com/Double-FW/Shift-Left_Accessibility_AI_Management)** — Agent-managed delivery lifecycle
+**Public programme delivery and bounded AI support** — [Accessibility Programme Runbooks](https://github.com/Double-FW/Accessibility_Programme_Runbooks)
 
-**Reviewed entry:** [Autonomous_Accessibility_Workflow_Management_Guide.md](https://github.com/Double-FW/Shift-Left_Accessibility_AI_Management/blob/27e299f281e4bb9adc78ef07760e12002e28c72a/Autonomous_Accessibility_Workflow_Management_Guide.md); [README](https://github.com/Double-FW/Shift-Left_Accessibility_AI_Management/blob/27e299f281e4bb9adc78ef07760e12002e28c72a/README.md). Snapshot: 27e299f281e4bb9adc78ef07760e12002e28c72a.
+**Public replacement checked 20 November 2026:** [Shared programme cycle](https://github.com/Double-FW/Accessibility_Programme_Runbooks/blob/a8ec268b29e6f8612c958b183b9d33ab0747efa7/framework/programme-cycle.md) and [Human and AI responsibilities](https://github.com/Double-FW/Accessibility_Programme_Runbooks/blob/a8ec268b29e6f8612c958b183b9d33ab0747efa7/framework/human-ai-responsibilities.md). Snapshot: a8ec268b29e6f8612c958b183b9d33ab0747efa7. These public sources replace the former inaccessible delivery dependency; no private source content is reproduced or assumed. R26 remains stable for existing cross-references and is a delivery route, not a distinct repository inventory item.
 
 **Act relationships:** O: [EU-WAD](#eu-wad), [EU-EAA](#eu-eaa), [UK-PSBAR](#uk-psbar), [GB-EA](#gb-ea), [US-508](#us-508), [US-ADA-II](#us-ada-ii), [US-ADA-III](#us-ada-iii), [CA-ACA](#ca-aca), [ON-AODA](#on-aoda), [FR-47](#fr-47), [AU-DDA](#au-dda), [NZ-WAS](#nz-was), [IL-SAR](#il-sar), [KR-DDA](#kr-dda), [BR-LBI](#br-lbi), [ZA-PEPUDA](#za-pepuda).
 
-**Activation condition:** A service owner adopts the specification and supplies tested integrations and a governance envelope.
+**Activation condition:** A service owner confirms remit, applicable requirements, actual decision owners and authorised access to evidence. Any automation needs separately supplied, tested integrations and explicit delegation.
 
-**Proposed machine deliverable:** Specify event intake, requirement/evidence records, bounded remediation, research handoffs and reviewable internal reports.
+**Proposed machine deliverable:** Draft a scoped intake and requirement/evidence register; identify dependencies, delivery owners, review conditions and open decisions; prepare research/test handoffs and reviewable reports. Candidate fixes remain subject to the permissions and human review actually granted.
 
-**Human deliverable:** Adopting owners approve policy/delegation and research protocol; specialists supply actual AT and lived-experience evidence.
+**Human deliverable:** Accountable owners establish scope, priorities, resources and decision rights; competent reviewers determine applicability; specialists and participants supply actual testing and lived-experience evidence. People authorise consequential decisions and evaluate whether the intended outcome has been achieved.
 
-**Boundary / acceptance concern:** AGENTS explicitly says specification_not_deployed. No scheduler, survey provider, credentials, CI or outcome measurement is assumed to exist.
+**Self-contained delivery route:** Establish remit and authority; map obligations and commitments for competent review; understand participation and capability; agree owned and resourced work; coordinate design, implementation and evaluation; review outcomes and carry unresolved gaps into improvement. Record evidence, uncertainty, responsible roles and the next review or handoff. Revisit scope when context changes; serious exclusion needs interim recovery alongside permanent correction.
+
+**Boundary / acceptance concern:** This is proposed operational support across the listed frameworks, not proof of compliance with any of them. The public documents are guidance and local assignment scaffolds. No scheduler, survey provider, credentials, CI, case-record store, delegated authority or successful outcome is assumed to exist. Preserve the original mapping's 4 November review date separately from this public-route check.
 
 ### R27
 
