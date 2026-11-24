@@ -119,3 +119,11 @@ This repository is a planning and knowledge resource for regulatory delivery. It
 ## Hugging Face dataset publication
 
 The secondary source guidance is also published as traceable documents and sections in [the Hugging Face dataset](https://huggingface.co/datasets/GarethFW/Global_Accessiblity_Regulatory_Requirements). See [the complete setup and verification guide](huggingface/SETUP.md) for token creation, GitHub secret configuration, the first run and weekly updates. The combined RAG snapshot is excluded to avoid duplication. Publication does not revalidate legal currency, applicability or compliance.
+
+## About the author
+
+Gareth Ford Williams is a senior leader in accessibility and inclusive design and co-founder of Double FW Ltd. His work spans accessibility, UX, technical standards, assistive technology and inclusive media. At the BBC, he led accessibility and UX work and chaired standards governance, translating research and policy into practical guidance.
+
+## About Double FW Ltd
+
+Double FW Ltd is a UK accessibility and inclusive design consultancy. It helps organisations build accessibility into strategy, governance, brands, products, content and services. Its public repositories provide practical guidance for people and AI-assisted workflows.
